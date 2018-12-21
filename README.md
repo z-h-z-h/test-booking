@@ -1,5 +1,5 @@
 # Тестовое задание
-Простой пример работы с booking API на Laravel
+Элементарный пример работы с проприетарным booking API на Laravel
 
 # Установка
 * git clone https://github.com/z-h-z-h/test-booking.git booking
