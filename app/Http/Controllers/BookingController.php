@@ -20,8 +20,6 @@ class BookingController extends Controller
         [$data['checkin'], $data['checkout']] = explode(' - ', $data['dates']);
         $data['phone'] = str_replace(' ', '', $data['phone']);
 
-        dd($data);
-
         $id = $api->makeBooking([
             ['name' => 'Имя', 'value' => $data['name']],
             ['name' => 'Телефон', 'value' => $data['phone']],
